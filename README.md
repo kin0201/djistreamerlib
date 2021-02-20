@@ -1,4 +1,4 @@
-# Android DJI Video Stream Decoding Library
+# Android DJI WebRTC Video Streaming Library
 
 **Management Summary**: 
 

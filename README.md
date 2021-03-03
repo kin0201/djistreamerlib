@@ -19,7 +19,26 @@ Available at JFrog Artifactory:
 implementation 'com.decades.android:djistreamerlib:1.0.0'
 ```
 
-See sample app below for necessary updates to your project's `build.gradle` in order to enable usage of JFrog Artifactory.
+Because of the new hosting at JFrog Artifactory here needs to be be an additional adaptation applied in your project's build.gradle (the one in the project's root) in order to help the Gradle build system to find the new library:
+
+```
+buildscript {
+    ...
+    dependencies {
+        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.13.0"
+    }
+}
+allprojects {
+    repositories {
+        ...
+        maven {
+            url "https://decades.jfrog.io/artifactory/djistreamerlib/"
+        }
+    }
+    apply plugin: "com.jfrog.artifactory"
+}
+
+```
 
 
 ## Sample app

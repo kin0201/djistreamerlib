@@ -7,7 +7,7 @@ Forget about RTMP!
 Make a DJI drone a **real** real-time video streamer utilizing WebRTC!
 
 
-## Documentation and API description
+## Documentation, history and API description
 
 [Available here](https://github.com/neilyoung/djistreamerlib/wiki)
 

@@ -16,7 +16,7 @@ Make a DJI drone a **real** real-time video streamer utilizing WebRTC!
 Available at JFrog Artifactory:
 
 ```
-implementation 'com.decades.android:djistreamerlib:1.1.0'
+implementation 'com.decades.android:djistreamerlib:1.1.1'
 ```
 
 Because of the new hosting at JFrog Artifactory here needs to be be an additional adaptation applied in your project's build.gradle (the one in the project's root) in order to help the Gradle build system to find the new library:

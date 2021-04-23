@@ -4,7 +4,7 @@ name: Build for MacOS
 on: 
   push:
     branches:
-      - onit_build_windows_ci_test_macos 
+      - master
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)

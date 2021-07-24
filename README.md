@@ -18,7 +18,7 @@ Available at JFrog Artifactory:
 implementation 'com.decades.android:djistreamerlib:1.4.0'
 ```
 
-Version History: [Available here](https://github.com/neilyoung/djistreamerlib/wiki/Version-history)
+[Version History](https://github.com/neilyoung/djistreamerlib/wiki/Version-history)
 
 Because of the new hosting at JFrog Artifactory here needs to be be an additional adaptation applied in your project's build.gradle (the one in the project's root) in order to help the Gradle build system to find the new library:
 

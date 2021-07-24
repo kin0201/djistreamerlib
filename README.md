@@ -1,11 +1,10 @@
 # Android DJI WebRTC Video Streaming Library
 
-**Management Summary**: 
+**Management Summary**:
 
-Forget about RTMP! 
+Forget about RTMP!
 
 Make a DJI drone a **real** real-time video streamer utilizing WebRTC!
-
 
 ## Documentation, history and API description
 
@@ -15,13 +14,13 @@ Make a DJI drone a **real** real-time video streamer utilizing WebRTC!
 
 Available at JFrog Artifactory:
 
-```
-implementation 'com.decades.android:djistreamerlib:1.3.0'
+```bash
+implementation 'com.decades.android:djistreamerlib:1.4.0'
 ```
 
 Because of the new hosting at JFrog Artifactory here needs to be be an additional adaptation applied in your project's build.gradle (the one in the project's root) in order to help the Gradle build system to find the new library:
 
-```
+```bash
 buildscript {
     ...
     dependencies {
@@ -39,7 +38,6 @@ allprojects {
 }
 
 ```
-
 
 ## Sample app
 

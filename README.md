@@ -15,7 +15,7 @@ Make a DJI drone a **real** real-time video streamer utilizing WebRTC!
 Available at JFrog Artifactory:
 
 ```bash
-implementation 'com.decades.android:djistreamerlib:1.6.0'
+implementation 'com.decades.android:djistreamerlib:1.7.0'
 ```
 
 [Version History](https://github.com/neilyoung/djistreamerlib/wiki/Version-history)
